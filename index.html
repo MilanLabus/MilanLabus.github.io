@@ -1,11 +1,12 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
 <meta charset="utf-8">
 <link rel="stylesheet" href="style.css">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 </head>
-    <body>
+    <body> 
+        <!-- This is the Navigation bar container -->
         <nav class ="navigation-bar">
            <img src="Images/logo.png" alt="logo" class="logo">
               
@@ -18,66 +19,71 @@
 
     
         </nav>
-        
+        <!-- This is the wrapper-->
     <div id="content">
-
+        <!-- This is the feature -->
          <div id="feature">
-            <img class="img-dentist" src="Images/photo.jpg" alt = Dentist Picture"> 
+            <img class="img-dentist" src="Images/photo.jpg" alt = "Dentist Pic"> 
             <div class="Specialist">Specialist Dental Clinic</div>
 
          </div>
 
          
 
-
+        <!-- This is the container for all of the articles -->
          <div id="articles">
+             <!-- This is article one-->
          <div class="article column1">
             <h2>General Treatments</h2>
             <p>We offer a large vairety of Threatments starting with preventative and restorative Threatments
                 to ensure that your teeth and gums are in top health. Our aim to provide exceptional Dental care in a relaxing athmosphere 
             </p>
-            <a href="Dental.html">
+            <form style="display: inline" action="Dental.html" method="get">
+                <!-- This is a button that links to the Dental Page -->
             <button id="btnOne">Read More</button>
-        </a>
+        </form>
          </div>
-
+            <!-- This is article two -->
          <div class="article column2">
             <h2>Cosmetic Threatments</h2>
             <p>If you are looking for a facial Threatment such as Botox injections or a face lift then you have come to the right place.
                Click the Cosmetic button in the navigation bar above to explore our options.
             </p>
-            <a href="Cosmetic.html">
+            <form style="display: inline" action="Cosmetic.html" method="get">
+                <!-- This is a button that links to the Cosmetic Page -->
             <button id="btnTwo">Read More</button>
-        </a>
+        </form>
          </div>
-
+          <!-- This is article three -->
          <div class="article column3">
              <h2>Finance Options</h2>
              <p>We here at Winning smiles are aware that Dental and Cosmetic Costs can be high, which is why we offer low interest Finance
                  for all our patients. Please click Contacts in the navigation bar to contact our team to make arrangments.
              </p>
-             <a href="Contact.html">
+             <form style="display: inline" action="Contact.html" method="get">
+                 <!-- This is a button that links to the Contact Page -->
              <button id="btnThree">Contact Us</button>
-             </a>
+            </form>
          </div>
         </div>
 
-        <div class="Call-Action">   
-            <a href="tel:123-456-7890">
-            <button id="CallBtn">Call now</button>
-            </a>
+        <!-- This is a div that contains a call to action button -->
+        <div class="Call-Action">  
+            <form style="display: inline" action="tel:123-456-7890" method="get">
+                 <button id="CallBtn">Call now</button>
+             </form> 
         </div>
          
 
 
 
-</div>
+    </div>
         
   
 
-
+        <!-- This is the footer -->
         <div id="footer">
             <p>&copy; Copyright 2021</p>
-        </div>
+    </div>
     </body>
 </html>
